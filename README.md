@@ -10,3 +10,5 @@ git --version
 Test-Path "C:\Program Files\Git\cmd\git.exe"
 
 $env:Path = [Environment]::GetEnvironmentVariable("Path","Machine") + ";" + [Environment]::GetEnvironmentVariable("Path","User")
+
+& "C:\Program Files\Git\cmd\git.exe" clone https://github.com/rizwananaz/ClientSideLearning.git
